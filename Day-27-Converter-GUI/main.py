@@ -16,7 +16,7 @@ window.config(padx=20, pady=20)
 entry = Entry(width=7)
 entry.grid(row=0, column=1, padx=PADY, pady=PADY)
 
-miles_label = Label(window,text="Miles")
+miles_label = Label(text="Miles")
 miles_label.grid(row=0, column=2, padx=PADY, pady=PADY)
 
 is_equal_to = Label(text="is equal to")
